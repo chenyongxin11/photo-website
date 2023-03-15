@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.morepicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.morepicture button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #414141;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.Nav {
+  background-color: rgb(77, 75, 75);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Nav ul {
+  display: flex;
+}
+.Nav ul li {
+  padding: 0.5rem;
+}
+.Nav ul li a {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem;
+}
+.Search input,
+.Search button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.Search button {
+  background-color: #3c3c3c;
+  color: white;
+}
+.Search button:hover {
+  cursor: pointer;
+}
+
+.foot {
+  background-color: #00c5df;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pictures .picture {
+  width: 400px;
+  padding: 1rem;
+}
+.pictures .picture .pictureContainer {
+  height: 40vh;
+  overflow: hidden;
+}
+.pictures .picture .pictureContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.5s ease;
+}
+.pictures .picture .pictureContainer img:hover {
+  transform: scale(1.25);
+}/*# sourceMappingURL=style.css.map */

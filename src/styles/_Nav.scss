@@ -1,0 +1,16 @@
+.Nav {
+  background-color: rgb(77, 75, 75);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  ul {
+    display: flex;
+    li {
+      padding: 0.5rem;
+      a {
+        font-size: 1.25rem;
+        color: white;
+      }
+    }
+  }
+}

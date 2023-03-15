@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.morepicture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #414141;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+  }
+}
+
+@import './Nav';
+@import './Search';
+@import './Foot';
+@import './Homepage';
+@import './Picture'
